@@ -28,14 +28,14 @@ def __package_files(directory):
 
 setuptools.setup(
     name="gcalendar",
-    version="0.4",
+    version="0.4.1",
     description="Read Google Calendar events from your terminal.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Gobinath Loganathan",
     author_email="slgobinath@gmail.com",
     url="https://github.com/slgobinath/gcalendar",
-    download_url="https://github.com/slgobinath/gcalendar/archive/v0.4.tar.gz",
+    download_url="https://github.com/slgobinath/gcalendar/archive/v0.4.1.tar.gz",
     packages=setuptools.find_packages(),
     package_data={},
     install_requires=requires,
@@ -48,5 +48,5 @@ setuptools.setup(
                     "Environment :: X11 Applications :: GTK",
                     "Intended Audience :: End Users/Desktop",
                     "Topic :: Utilities"] + [('Programming Language :: Python :: %s' % x) for x in
-                                             '3 3.4 3.5 3.6 3.7'.split()]
+                                             '3 3.4 3.5 3.6 3.7 3.8 3.9'.split()]
 )
